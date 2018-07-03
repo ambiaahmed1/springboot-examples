@@ -38,4 +38,11 @@ public class HelloControllerIT {
                 String.class);
         assertThat(response.getBody(), equalTo("Greetings from Spring Boot!"));
     }
+
+    @Test
+    public void getHelloWorld() throws Exception {
+        ResponseEntity<String> response = template.getForEntity(new URL("http://localhost:" + port + "/helloworld").toString(),
+                String.class);
+        assertThat(response.getBody(), equalTo("Helloworld!"));
+    }
 }
