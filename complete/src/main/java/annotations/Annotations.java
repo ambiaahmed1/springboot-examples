@@ -11,9 +11,6 @@ public class Annotations {
             //  DispatcherServlet.
             //  @ComponentScan tells Spring to look for other components, configurations, and services in the package, allowing it to find the controllers.
 
-
-
-
     //@Required - applies to bean property setter methods and it indicates that the affected bean property must be populated, otherwise exception will be thrown.
     //@Autowired - wires beans together using setter or constructor injects
     //@Qualifier - when you create more than one bean of the same type you want to wire only one of them with property, then you qualifier.
@@ -23,7 +20,7 @@ public class Annotations {
     //@Component -
     //@Service -
     //@Controller -
-    //@PathVariable -
+    //@PathVariable - used to pick up values from the url
     //@Configuration -
     //@Scope -
 
