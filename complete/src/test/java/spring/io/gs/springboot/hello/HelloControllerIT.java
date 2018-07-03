@@ -1,4 +1,4 @@
-package hello;
+package spring.io.gs.springboot.hello;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

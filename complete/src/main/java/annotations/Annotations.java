@@ -26,7 +26,12 @@ public class Annotations {
     //@PathVariable -
     //@Configuration -
     //@Scope -
-    //@RequestMapping -
+
+    //@RequestController - annotation, which marks the class as a controller where ever method returns a domain object instead of a view.
+    //it's shorthand for @Controller and @ResponseBody rolled together.
+    //@RequestMapping - ensures that HTTP requests to the "/greeting" are mapped to the correct greeting() method.
+    //@RequestParam - binds the value of the query string parameter "name" into the "name parameter of the greeting() method. If
+    //the name parameter is abset in the request, the defaultValue of "World" is used - please see greeting package..
     //@RequestBody
     //@Aspect -
 

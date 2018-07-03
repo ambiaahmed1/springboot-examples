@@ -1,4 +1,4 @@
-package hello;
+package spring.io.gs.springboot.hello;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
