@@ -23,6 +23,7 @@ public class Annotations {
     //@PathVariable - used to pick up values from the url
     //@Configuration -
     //@Scope -
+    //@JsonIgnore - used to ignore fields
 
     //@RequestController - annotation, which marks the class as a controller where ever method returns a domain object instead of a view.
     //it's shorthand for @Controller and @ResponseBody rolled together.

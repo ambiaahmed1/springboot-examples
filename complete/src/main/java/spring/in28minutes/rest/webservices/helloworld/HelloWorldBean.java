@@ -1,4 +1,4 @@
-package spring.in28minutes.rest.webservices;
+package spring.in28minutes.rest.webservices.helloworld;
 
 public class HelloWorldBean {
 
